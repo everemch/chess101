@@ -1,0 +1,169 @@
+/* CSS - Cascading Style Sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=11b0u0kp3mYfSvbkQqxsHiL-gdv */
+
+/* As hex codes */
+.color-primary-0 { color: #B79328 }	/* Main Primary color */
+.color-primary-1 { color: #F8DA7D }
+.color-primary-2 { color: #D3B14A }
+.color-primary-3 { color: #95740F }
+.color-primary-4 { color: #6B5100 }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #95740F;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EAEAEA;
+    margin: auto;
+}
+
+#wrapper {
+    background: linear-gradient(#F8DA7D, #EAEAEA);
+}
+
+header {
+    background-color: #6B5100;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #D3B14A
+}
+
+header a:hover {
+    color: #95740F;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    font-weight: bold;
+    padding: 0;
+    font-size: 120%;
+    text-align: center;
+}
+
+nav li {
+    border-bottom: 1px solid #6B5100;
+}
+
+nav a {
+    text-decoration: none;
+    color: #95740F;
+}
+
+nav a:hover {
+    color: #6B5100;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.heading {
+    margin-top: 25px;
+}
+
+.subheading {
+    margin-top: 25px;
+}
+
+#main-img-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.main-img {
+    width: 100px;
+    height: 100px;
+}
+
+#rookLogo {
+    height: 80px;
+    background-image: url(assets/rookLogo.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    margin: auto;
+}
+
+p {
+    margin: auto;
+    font-size: 0.9em;
+}
+
+table {
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+}
+
+td {
+    text-align: center;
+}
+
+td img {
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 2em;
+}
+
+@media only screen and (min-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav li {
+        border-left: 1px solid black;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        width: 25%;
+    }
+
+    .heading {
+        margin-top: 50px;
+    }
+
+    .subheading {
+        margin-top: 50px;
+    }
+
+    #rookLogo {
+        height: 100px;
+    }
+    
+    .main-img {
+        height: 150px;
+        width: 150px;
+    }
+}
