@@ -93,11 +93,29 @@ main {
     height: 100px;
 }
 
+.img-nav-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.img-nav-container a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: #95740F;
+    border: 2px solid #6B5100;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.img-nav-container a:hover {
+    color: #6B5100;
+}
+
 #rookLogo {
     height: 80px;
-    background-image: url(assets/rookLogo.svg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
 }
 
 h3 {
@@ -170,5 +188,22 @@ footer {
     .main-img {
         height: 150px;
         width: 150px;
+    }
+
+    .img-nav-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .main-img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .img-nav-container {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
