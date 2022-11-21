@@ -73,6 +73,16 @@ main {
     margin-right: 20px;
 }
 
+.strategy-heading ol {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.strategy-heading li {
+    margin: 10px;
+}
+
 .heading {
     margin-top: 25px;
 }
@@ -186,8 +196,8 @@ footer {
     }
     
     .main-img {
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
     }
 
     .img-nav-container {
@@ -198,8 +208,8 @@ footer {
 
 @media only screen and (min-width: 1024px) {
     .main-img {
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
     }
 
     .img-nav-container {
