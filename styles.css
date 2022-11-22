@@ -169,6 +169,18 @@ footer {
     padding: 2em;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#form-phone-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 @media only screen and (min-width: 600px) {
     nav ul {
         display: flex;
