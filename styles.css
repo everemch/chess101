@@ -181,6 +181,20 @@ form {
     flex-wrap: nowrap;
 }
 
+#play-now {
+    text-align: center;
+    text-decoration: none;
+    color: #95740F;
+}
+
+#play-now h1 {
+    margin-top: 10px;
+}
+
+#play-now:hover {
+    color: #6B5100;
+}
+
 @media only screen and (min-width: 600px) {
     nav ul {
         display: flex;
