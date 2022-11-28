@@ -1,6 +1,7 @@
 /* CSS - Cascading Style Sheet */
 /* Palette color codes */
 /* Palette URL: http://paletton.com/#uid=11b0u0kp3mYfSvbkQqxsHiL-gdv */
+/* Colors below used as reference for color scheme */
 
 /* As hex codes */
 .color-primary-0 {
@@ -162,6 +163,7 @@ p {
 table {
     border: 2px solid black;
     border-collapse: collapse;
+    width: 100%;
 }
 
 td,
